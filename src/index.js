@@ -130,7 +130,7 @@ function Footer(){
 
 function Order({openHour,closedHour}){
     console.log(openHour,closedHour);
-    alert("hacked");
+   console.log("welcome to the application");
     return(
         <div className="order">
             <p> we are open until {closedHour}:00. Come and visit  us or Order Online</p>
